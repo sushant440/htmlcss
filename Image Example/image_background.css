@@ -1,0 +1,39 @@
+/* global selector*/
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-image: url(./Assets/woman-beach-with-her-baby-enjoying-sunset_52683-144131.avif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+#content{
+    height:300px;
+    margin:10px;
+    color:blue;
+    background-color: rgba(182, 232, 166, 0.8);
+    border-radius: 20px;
+    width:400px;
+    transition: 0.8s all
+    ease-in-out;
+    
+
+}
+/* uisng pseudo class*/
+#content:hover{
+    background-color: antiquewhite;
+    border-radius: 80px;
+    transform: rotate(360deg);
+
+}
+
